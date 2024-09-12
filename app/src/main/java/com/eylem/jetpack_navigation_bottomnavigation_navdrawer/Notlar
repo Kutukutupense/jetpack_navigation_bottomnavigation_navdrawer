@@ -1,0 +1,14 @@
+ilk olarak build.gradle(module) eklemelerini yapıyoruz.
+öncelikle ilgili fragmentları oluşturuyoruz.
+nav_drawer kullanacağımız için mainactivity xml ini constraint layout u drawer layout yapıyoruz.
+ve yine main activity xml in içine navigation view ekliyoruz. ve içine gerekenleri yazıyoruz.
+sonrasında res klasörü içine ismine menu dediğimiz new directory oluşturuyoruz
+menu klasörü içine  main activity xml i içersine koyduğumuz navigation view de eklediğimiz
+app:menu="@menu/drawer_menu"/> olduğu için drawer_menu isimli bir Menu Resource File koyuyoruz
+mainactivity xml i içersinde navigationview altına bir coordinator layout oluşturuyoruz ve içine
+fragment container view ve bottomnavigationview ekliyoruz.
+res içersindeki menu klasörüne menu resource file olarak bottom_nav_menu.xml i oluşturuyoruz
+activity xml inin içine yine gerekli xml kodlarını yazıyoruz.
+res klasörü içine navigation klasörünü oluşturuyoruz ve navigation klasörü içersine nav_graph xml ini ekliyoruz
+nav_graph a fragmentleri ekliyoruz. sonrasında bottom_nav_menu içersine itemlara iconları ve gideceğimiz
+fragmentların asıl gerçek idsini ekliyoruz(önemli) yoksa bottomnav nereden bilsin hangi fragment a gideceğini

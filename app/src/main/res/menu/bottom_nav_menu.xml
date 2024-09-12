@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ico_home"/>
+    <item
+        android:id="@+id/qrDialogFragment"
+        android:title="@string/qr_transaction"
+        android:icon="@drawable/ico_qr"/>
+    <item
+        android:id="@+id/moneyTransferDialogFragment"
+        android:title="@string/money_transfer"
+        android:icon="@drawable/ico_money"/>
+    <item
+        android:id="@+id/paymentFragment"
+        android:title="@string/payments"
+        android:icon="@drawable/ico_payment"/>
+    <item
+        android:id="@+id/paparaCardFragment"
+        android:title="@string/papara_card"
+        android:icon="@drawable/ico_card"/>
+
+</menu>
